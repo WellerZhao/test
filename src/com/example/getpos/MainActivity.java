@@ -54,7 +54,6 @@ public class MainActivity extends Activity {
 				@Override
 				public void run() {
 					// TODO Auto-generated method stub
-					System.out.println("nima");
 		            String url = "http://192.168.1.100:8080/Form/Android/get_menu";
 		            HttpClient httpClient = new DefaultHttpClient();
 		            HttpGet get = new HttpGet(url);
